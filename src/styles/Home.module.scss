@@ -1,0 +1,535 @@
+
+
+@import "../styles/components/geralStyle.scss";
+@import "./components/animationStyles.scss";
+
+$color1: rgb(255, 196, 0);
+$textColor: 4px 4px 0px rgba(10,10,10,0.6);
+
+.main {
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  h3 {
+    color: $color1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: $textColor;
+  }
+  h1{
+    text-shadow: $textColor;
+  }
+  
+  p{
+    text-shadow: $textColor;
+  }
+
+  .division {
+    width: 100%;
+    display: flex;
+   
+    .backgroundDivision {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+    }
+  }
+
+  footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    position: relative;
+    top: 700px;
+    border-top: 3px solid $color1;
+    h1{
+      text-shadow: none;
+      color: white;
+      font-size: 18px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+
+}
+
+.devIcon {
+  font-size: 200px !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  color: rgba($color: #969696, $alpha: 0.7) !important;
+  text-shadow: 15px 30px 0px rgba($color: #000000, $alpha: 0.7) !important;
+}
+
+#division1 {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+  height: 600px;
+  z-index: -2;
+
+   
+  h1 {
+    color: white;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .divisionContainerText {
+   
+    width: 400px;
+    position: relative;
+    .buttonContate{
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: transparent;
+      border: 2px solid $color1;
+      transition: all 0.5s;
+      color: $color1;
+      cursor: pointer;
+      
+    }
+    .buttonContate:hover{
+      background-color: $color1;
+        color: white;
+    }
+  }
+}
+
+#division2 {
+  background-color: #565763;
+  position: relative;
+  top: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  overflow: visible;
+  
+  .containerDescription{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-size: 38px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: $color1;
+      text-align: center;
+    }
+    p{
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      font-family:'Courier New', Courier, monospace;
+    }
+  }
+  .tituloContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    h1 {
+      color: white;
+      font-size: 38px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
+  .conhecimentoOptionsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+
+   
+   
+  }
+  
+  .containerConhecimentos{
+    width: 50%;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    padding: 50px;
+    .ConhecimentoIcon{
+      max-width: 50px;
+      max-height: 50px;
+      object-fit:contain;
+      overflow: visible;
+      cursor: pointer;
+      filter: drop-shadow(8px 8px 0px rgba(10,10,10,0.4));
+      position: relative;
+      top: 0;
+      transition: all 0.5s;
+      &:hover{
+        top: -7px;
+      }
+    }
+  }
+  .conhecimentoOption {
+    width: 250px;
+    height: 300px;
+    background-color: rgba($color: #2b2b2b, $alpha: 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    
+    h2 {
+      color: white;
+      transition: all 0.5s;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .conhecimentoOptionImg {
+      width: 80px;
+      height: 80px;
+      transition: all 0.5s;
+      filter: colorize-image(white);
+  
+    }
+  
+    &:hover {
+      .conhecimentoOptionImg {
+        filter: colorize-image($color1);
+      }
+      h2 {
+        color: $color1;
+      }
+    }
+  }
+  #Index_division3{
+    width: 500px;
+    height: 500px;
+    background-color: #2b2b2b;
+    }
+}
+
+
+#division3{
+  width: 100%;
+  min-height: 700px;
+  background-color: #494949;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  .portifolioBoxTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      color: white;
+      font-size: 38px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p {
+      color: white;
+      font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  }
+  .portifolioBoxOptions{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    border-bottom: 2px solid white;
+    .optionPortifolioSelect{
+      color: rgb(187, 187, 187);
+      font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      transition: all 0.5s;
+      position: relative;
+      top: 17px;
+      cursor: pointer;
+      padding-bottom: 10px;
+     &:hover{
+      color: $color1;
+      border-bottom: 4px solid $color1;
+     }
+    }
+    .portifolioBoxOptionActive{
+      color: $color1;
+          border-bottom: 4px solid $color1;
+    }
+  }
+  .boxImagesPortifolio{
+    width: 70em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1em;
+    img{
+      border: 5px solid rgb(32, 32, 32);
+      width: 300px;
+      height: 200px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 8px 8px 0px rgba($color: #000000, $alpha: 0.4);
+      transform: scale(1);
+      transition: all 0.5s;
+      cursor: pointer;
+      filter: grayscale(0%);
+      &:hover{
+        border: 5px solid white;
+        transform: scale(1.07);
+        filter: grayscale(100%);
+      }
+    }
+  }
+  .boxPaginationPortifolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    h1{
+      color: $color1;
+      text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.4);
+    }
+    img{
+      width: 3em;
+      height: 3em;
+      filter: drop-shadow(5px 0px 0px rgba(10,10,10,0.5));
+      cursor: pointer;
+    }
+    .paginationBackPage{
+      transform: scale(-1);
+    }
+  }
+  }
+  #division4{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(45, 48, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.4);
+    }
+    p{
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .boxContatos{
+      max-width: 900px;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .contatoBox{
+        width: 250px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 20px;
+        align-items: center;
+        background-color: rgb(60, 65, 70);
+        img{
+          width: 30px;
+          height: 30px;
+          object-fit: cover;
+        }
+        p{
+          position: relative;
+          left: 20px;
+          color: $color1;
+          text-shadow: none;
+        }
+      }
+    }
+  }
+  
+@media only screen and (min-width: 1200px ) and (max-width:1920px) {
+  #division1{
+    h3{
+      font-size: 24px;
+    }
+    h1{
+      font-size: 28px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+  #division2{
+    .tituloContainer{
+      h1{
+        font-size: 30px;
+      }
+      p{
+        font-size: 17px;
+      }
+    }
+  .conhecimentoOption{
+    width: 150px;
+    height: 200px;
+    .conhecimentoOptionImg {
+      width: 40px;
+      height: 40px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    }
+    .containerConhecimentos{
+      .ConhecimentoIcon{
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .containerDescription{
+      h1{
+        font-size: 25px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+   
+  }
+ 
+}
+@media only screen and (min-width: 600px ) and (max-width:1200px) {
+  #division1{
+    h3{
+      font-size: 24px;
+    }
+    h1{
+      font-size: 28px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+  #division2{
+    .tituloContainer{
+      h1{
+        font-size: 30px;
+      }
+      p{
+        font-size: 17px;
+      }
+    }
+  .conhecimentoOption{
+    width: 150px;
+    height: 200px;
+    .conhecimentoOptionImg {
+      width: 40px;
+      height: 40px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    }
+    .containerConhecimentos{
+      .ConhecimentoIcon{
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .containerDescription{
+      h1{
+        font-size: 25px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+ 
+}
+@media only screen and (min-width: 300px ) and (max-width:600px) {
+  
+  #division1{
+    h3{
+      font-size: 20px;
+    }
+    h1{
+      font-size: 24px;
+    }
+    p{
+      font-size: 13 px;
+    }
+
+  }
+  #division2{
+    .tituloContainer{
+      h1{
+        font-size: 30px;
+      }
+      p{
+        font-size: 17px;
+      }
+    }
+  .conhecimentoOption{
+    width: 150px;
+    height: 200px;
+    .conhecimentoOptionImg {
+      width: 40px;
+      height: 40px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    }
+    .containerConhecimentos{
+      .ConhecimentoIcon{
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .containerDescription{
+      h1{
+        font-size: 25px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+ 
+}
+

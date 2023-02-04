@@ -1,0 +1,115 @@
+{
+    "projects":
+    [
+        {
+            "name":"Xadrez",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/chess_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/chess_icon.jpg","https://videosportifolio.blob.core.windows.net/dev/chessVideo_icon.jpg"],
+            "content":["https://videosportifolio.blob.core.windows.net/dev/chess.jpg", "ZHSsUOfS_NA"],
+            "description":"Esse projeto é um projeto em React native de um jogo de xadrez com inteligência artificial que não utiliza de nenhuma biblioteca de terceiros para a sua logica e muito menos de requisições, toda a logica do projeto foi criada por mim; esse projeto foi criado para ser parte de outro projeto que estava desenvolvendo. De forma simplificada o jogo possui 3 dificuldades (facil, medio, dificil) essas 3 dificuldades mudam a logica da ia do bot, na facil os movimentos serão aleatorios, na media os movimentos serão baseados em força relativa de 1 movimento no futuro, no dificil a ia funciona através de um algoritmo MinMax de 3 movimentos futuros, tendo em vista que é um desenvolvimento mobile a pouca capacidade do hardware impede um numero maior de previsões pela ia.",
+            "links":["https://github.com/GabrielVictor159/Chess"],
+            "linksType":["github"],
+            "type":"dev"
+        },
+        {
+            "name":"Secretaria de Obras",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/secretariaObras_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/secretariaObras_icon.jpg"],
+            "content":["obFYt7JWucU"],
+            "description":"Esse foi um projeto que eu fiz com foco em aprender Java server Faces, como é perceptivel o foco desse sistema não era o UX/UI e sim a integração entre o front-end e back-end, nesse projeto utilizei o mySql de banco de dados, esse projeto não foi possivel subir no azure pela falta de suporte que o azure tem com JSF e xhtml",
+            "links":["https://github.com/GabrielVictor159/-secretary-of-works-project"],
+            "linksType":["github"],
+            "type":"dev"
+        },
+        {
+            "name":"Site de pets",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/site_pets_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/site_pets_icon.jpg"],
+            "content":["4DymEeL_5bw"],
+            "description":"Esse foi um trabalho de faculdade que eu fiz, basicamente eu tinha uma semana para fazer o front-end apenas com HTML e Css não poderia utilizar nem mesmo javaScript, por isso e pelo tempo curto o site não teve responsividade e teve um layout simples",
+            "links":["https://github.com/GabrielVictor159/site-Pets","https://happy-water-022fa5d10.2.azurestaticapps.net/"],
+            "linksType":["github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Zenitsu animação",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/zenitsu_animation_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/zenitsu_animation_icon.jpg"],
+            "content":["i_kUwo1o-ac"],
+            "description":"Essa foi uma animação que eu criei utilizando imagens fixas, gifs, css e HTML",
+            "links":["https://github.com/GabrielVictor159/zenitsu-Animation-css", "https://orange-ocean-0e695ee10.2.azurestaticapps.net/"],
+            "linksType":["github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Dados meteorologicos",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/meteorology_countries_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/meteorology_countries_icon.jpg"],
+            "content":["QLMME_AdLUs"],
+            "description":"Esse foi um projeto simples que fiz em um dia utilizando React, basicamente ele utiliza de algumas apis e base de dados de localidades para que o usuario selecione o pais um estado e uma cidade, logo em seguida ele faz uma requisição em uma api meteorologica sobre aquela cidade para obter os dados sobre aquela cidade no momento",
+            "links":["https://github.com/GabrielVictor159/Meteorology-Countries", "https://gray-meadow-021418d10.2.azurestaticapps.net"],
+            "linksType":["github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Calculadora",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/calculadora_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/calculadora_icon.jpg"],
+            "content":["-EplXzmPNRU"],
+            "description":"Sim como todo dev eu tinha que fazer uma calculadora algum dia, esse projeto é um projeto simples que fiz em um unico dia, ele é feito em React e é algo bastante simples",
+            "links":["https://github.com/GabrielVictor159/Calculator", "https://orange-water-0339b5a10.2.azurestaticapps.net/"],
+            "linksType":["github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Jogo da Cobrinha",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/jogo_cobrinha_icon.jpg",
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/jogo_cobrinha_icon.jpg"],
+            "content":["lp6XFonzRdM"],
+            "description":"Esse foi um projeto extremamente simples que fiz um dia, nada mais é do que o jogo da cobrinha feito via React",
+            "links":["https://github.com/GabrielVictor159/snakeGame","https://kind-hill-0cdbac610.2.azurestaticapps.net/"],
+            "linksType":["github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Calculadora teorema de pitagoras",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/teorema_pitagoras_icon.jpg",
+            "content":["Y-10OgtIpxQ"],
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/teorema_pitagoras_icon.jpg"],
+            "description":"Esse é um projeto que fiz em 3 horas apenas, esse projeto é uma calculadora para o teorema de pitagoras que é o calculo da hipotenusa, esse projeto é um pouco mais complexo do que parece por que ele não é uma pagina estatica, ela faz uma requisição a uma api que eu criei em python utilizando flask e a api quem faz o calculo, o front-end é feito em React",
+            "links":["https://github.com/GabrielVictor159/teorema_pitagoras_frontEnd","https://github.com/GabrielVictor159/Api_teorema_pitagoras","https://purple-dune-0ff3d950f.2.azurestaticapps.net/"],
+            "linksType":["github","github","site"],
+            "type":"dev"
+        },
+        {
+            "name":"Bazar Instituto Viver Rafaela",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/bazar-ivr_icon.jpg",
+            "content":["db-_NlkaqKk"],
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/bazar-ivr_icon.jpg"],
+            "description":"Esse foi sem duvida o projeto mais desafiador para mim, basicamente eu tinha que desenvolver um e-comerce sozinho, isso significa que todo o prototipo, banco de dados, back-end, front-end e os testes teriam que ser feitos por mim e sim eu fiz tudo isso e terminei o e-comerce que logo sera publicado, por motivos de segurança a aplicação que real do back-end esta privada no github mas eu deixei uma versão publica que não possui os riscos de segurança, esse e-comerce foi desenvolvido utilizando o React, Node.js + express, MySql e a api do mercado pago para realizar os pagamentos",
+            "links":["https://github.com/GabrielVictor159/Bazar-IVR-FrontEnd","https://github.com/GabrielVictor159/Bazar-IVR-BackEnd","https://www.figma.com/file/kx0M0wLk2MhhPCqEZ6PYCY/Untitled?node-id=0%3A1"],
+            "linksType":["github","github","figma"],
+            "type":"dev"
+        },
+        {
+            "name":"Comunique CEM",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/comunique_icon.jpg",
+            "content":["amDYr5tBVSo","https://videosportifolio.blob.core.windows.net/dev/comunique_prototipo.png"],
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/comunique_icon.jpg","https://videosportifolio.blob.core.windows.net/dev/comunique_prototipo_icon.jpg"],
+            "description":"Esse é um projeto de faculdade para ser implementado no centro de ensino CEM 2 do gama (local onde moro), de forma simplificada se assemelha bastante as redes sociais como telegram e whatshap, possui outras funcionalidades como jogos, agenda e noticias, eu fiquei responsavel por desenvolver o front-end mobile dessa aplicação, eu fiz o front-end utilizando o React native, vale lembrar que dentro desse projeto possui outro projeto meu que é o jogo de xadrez feito em React native, esse app ainda não esta pronto esta faltando oback-end que sera desenvolvido nos proximos meses",
+            "links":["https://github.com/GabrielVictor159/ComuniqueApp","https://www.figma.com/file/QdK4cWNznBbr0YiCUymJDw/Autismo?node-id=0%3A1"],
+            "linksType":["github","figma"],
+            "type":"dev"
+        },
+        {
+            "name":"Sistema de monitoramento de vacinas",
+            "icon":"https://videosportifolio.blob.core.windows.net/dev/smv_icon.jpg",
+            "content":["Q8JDantNrLE","https://videosportifolio.blob.core.windows.net/dev/smv_prototipo.png"],
+            "contentIcons":["https://videosportifolio.blob.core.windows.net/dev/smv_icon.jpg", "https://videosportifolio.blob.core.windows.net/dev/smv_prototipo_icon.jpg"],
+            "description":"Esse é um projeto de faculdade que visa a criação de um aplicativo mara gerenciamento de vacinas nas redes de saude, eu fiquei responsavel por desenvolver o front-end mobile desse aplicativo utilizando React native porem esse projeto tem um front-end extremamente simples e ainda esta sendo prototipado, porem o front-end é a unica parte desse aplicativo que falta logo ele estara em produção",
+            "links":["https://github.com/GabrielVictor159/SMV","https://www.figma.com/file/s5lPwtIy5jeuzq34ZyojdT/Prot%C3%B3tipo-Vacina%C3%A7%C3%A3o?node-id=0%3A1"],
+            "linksType":["github","figma"],
+            "type":"dev"
+        }
+    ]
+}

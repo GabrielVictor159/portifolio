@@ -1,0 +1,63 @@
+$color1:rgb(255, 196, 0);
+@import "./animationStyles.scss";
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    .links{
+      text-decoration: none;
+    }
+      .IconName{
+        font-size: 2em;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        div{
+          width: 0.3em;
+          height: 0.3em;
+          border-radius: 20px;
+          background-color:$color1;
+         position: relative;
+         top: 8px;
+        }
+      }
+      .items{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        transition: all 0.5s;
+        h1{
+          color: white;
+          font-size: 1em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          cursor: pointer;
+          div{
+            width: 0;
+            height: 3px;
+            background-color: $color1;
+            position: relative;
+            top: 10px;
+            transition: all 0.5s;
+          }  
+          &:hover{
+            div{
+              width: 110% ;
+              
+            }  
+          }
+        }
+       
+
+      }
+    
+  }
+ 

@@ -1,0 +1,66 @@
+
+@keyframes leftSurge {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes rightSurge {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes scale{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes topSurge {
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes bottomSurge {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes typing {
+    0% { width: 0 }
+    100% { width: 100% }
+  }
+  @keyframes rotate3d {
+    0%{
+        opacity: 0;
+        transform: rotate3d(0,-1,0,90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate3d(0,0,0,90deg);
+    }
+  }
+

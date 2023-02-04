@@ -1,0 +1,277 @@
+{
+    "ux":[
+        {
+            "name":"Adobe Ilustrator",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-illustrator-480.png",
+            "descripton":"Ja faz mais de 6 anos que eu aprendi e utilizo o Ilustrator, aprendi através do curso de Open CG que fiz na gracom que é uma subdivisão da Adobe."
+        },
+        {
+            "name":"Adobe Photoshop",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-photoshop-480.png",
+            "descripton":"Eu aprendi Photoshop no curso Open CG que fiz na gracom, ja fiz incontaveis projetos porém não armazenei eles e por isso so possuo um numero limitado, se tratando de photoshop consigo manipular imagens de qualquer forma imaginavel."
+        },
+        {
+            "name":"Adobe Indesign",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-indesign-480.png",
+            "descripton":"Aprendi sobre o adobe Indesign no meu curso de Open CG, utilizo principal no contexto de criar e modificar PDFs."
+        },
+        {
+            "name":"Adobe Animate",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-animate-480.png",
+            "descripton":"Aprendi sobre o adobe Animate no meu curso de Open CG, aprendi sobre o Animate no contexto de criação de animações porem tive contato com a sua funcionalidade de criação de games utilizando sua linguagem flask"
+        },
+        {
+            "name":"Adobe Dreamweaver",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-dreamweaver-480.png",
+            "descripton":"Aprendi sobre o dreamweaver no meu curso de Open CG e futuramente na minha formação de Sistemas de informação, o dreamweaver foi o meu primeiro contato com scripts web (HTML,CSS, JavaScript), isso faz 6 anos, des de então venho aperfeiçoado minhas tecnicas nesses scripts"
+        },
+        {
+            "name":"Adobe Muse",
+            "img":"https://videosportifolio.blob.core.windows.net/images/adobe-muse.png",
+            "descripton":"Aprendi sobre o adobe Muse no meu curso de Open CG, o contexto do uso do adobe muse se foca na criação de paginas web sem nenhum codigo, entretanto ele traz alguns problemas pois utiliza de scripts prontos o que me levou a abandona-lo"
+        },
+        {
+            "name":"Adobe XD",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-xd-240.png",
+            "descripton":"Aprendi sobre o adobe Xd na faculdade de Sistemas nas aulas de uma das materias sobre design, apesar de ser muito util e utilizar em alguns momentos para a prototipação de paginas prefiro utilizar o figma."
+        },
+        {
+            "name":"Adobe Premiere",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-premiere-pro-240.png",
+            "descripton":"Aprendi sobre o premiere no meu curso de Open CG, apesar de ser um programa bom para a criação de videos sempre utilizei o After Effects pelas capacidades acima."
+        },
+        {
+            "name":"Adobe After Effects",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-adobe-after-effects-240.png",
+            "descripton":"Aprendi sobre o after Effects no meu curso de Open CG, utilizei o after Effects para centenas de projetos, para mim é extremamente util na criação de videos, entretanto possui limitações quando se trata de animações 3d."
+        },
+        {
+            "name":"Autodesk Maya",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-autodesk-maya-240.png",
+            "descripton":"Aprendi sobre o maya no meu curso de Open CG, utilizei e utilizo o maya para modelagem e animações 3d, para mim o maya é incomparavel em modelagem, entretanto o blender possui algumas ferramentas que o maya deixa a desejar."
+        },
+        {
+            "name":"Blender",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-blender-3d-240.png",
+            "descripton":"Aprendi sobre o blender ao longo do tempo, pesquisando e estudando, utilizo apenas para algumas funcionalidades que o maya é incapaz de realizar."
+        },
+        {
+            "name":"Zbrush",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-zbrush-240.png",
+            "descripton":"Aprendi sobre o zBrush ao longo do tempo, pesquisando e estudando, utilizo para aprimorar detalhes em modelos high-poly."
+        }
+        
+    ],
+    "dev":[
+        {
+            "name":"C",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-c-programming-240.png",
+            "descripton":"A linguagem C foi a primeira linguagem de programação que tive contato, tive contato no 1º semestre da faculdade, aprendi bastante sobre programação estruturada e funcional, nunca desenvolvi nenhum projeto grande com essa linguagem apenas questões logicas para aprender logica de programação"
+
+        },
+        {
+            "name":"C++",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-c++-240.png",
+            "descripton":"Buscando aprender sobre desenvolvimento de jogos na Unreal Engine, estudei sobre C++ e blueprints, não foquei em nenhum framework dessa linguagem apenas busquei aprender os conceitos primordiais dela, como eu ja havia estudado C e ja possuia diversos conhecimentos em POO foi relativamente facil aprender C++, porem meu foco com essa linguagem é aprender sobre desenvolvimento de jogos."
+        },
+        {
+            "name":"Java",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-java-240.png",
+            "descripton":"Java é sem duvida a linguagem de programação que possuo mais experiência, apesar de não possuir muitos projetos na linguagem, foi a segunda linguagem que aprendi na faculdade e onde desenvolvi meus conhecimentos sobre Programação Orientada a Objetos, Api Rest e diversos Design Patterns"
+        },
+        {
+            "name":"Java JSF",
+            "img":"https://videosportifolio.blob.core.windows.net/images/pngfind.com-color-full-png-5395567.png",
+            "descripton":"Aprendi sobre Java Server Faces estudando, lendo e pesquisando para desenvolver um projeto pessoal, de fato o conceito de xhtml e beans que o JSF traz não são mais usados no mercado, entretanto eu aprendi sobre essa tecnologia antes de aprender sobre api rest, aprendi tambem a utilizar o JSF em conjunto com outras tecnologias como primefaces, Ajax, jpa, bean Validation."
+        },
+        {
+            "name":"Java JSP",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-jsp-64.png",
+            "descripton":"Aprendi sobre o Java Server Page na faculdade e em cursos que fiz na capgemini, o Java Server Page usa de um conceito muito parecido com o JSF de mesclar o Front-End e o Back-End, por isso eu não costumo utilizar essa tecnologia, porêm aprendie sei como utilizar"
+        },
+        {
+            "name":"Spring",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-spring-boot-240.png",
+            "descripton":"Sem duvida o Spring é o framework Java que eu possuo mais conhecimentos, o spring sendo uma plataforma de desenvolvimento com diversas tecnologias eu possuo muitos conhecimentos relacionados a ele como Spring MVC, Spring Boot, Spring Security, Spring Data, Spring Thymeleaf, Spring Validation entre outros"
+        },
+        {
+            "name":"HTML",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-html-5-240.png",
+            "descripton":"Eu inicialmente aprendi sobre HTML a 6 anos atrás no meu Curso de OpenCG e dês de la venho melhorando meus conhecimentos sobre HTML, na faculdade estudei sua historia suas versões as linguagens que antecederam ele, alem de ter aprendido tambêm sobre XHTML e JSP."
+        },
+        {
+            "name":"CSS",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-css3-240.png",
+            "descripton":"Eu inicialmente aprendi sobre o Css no meu curso de OpenCG, entretanto melhorei muito ao longo do tempo, aprendendo conceitos sobre Keyframes e animações, displays flex e grid, media-Screens e diversas outras propriedades"
+        },
+        {
+            "name":"Sass",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-sass-240.png",
+            "descripton":"Eu aprendi sobre Sass estudando e tentando melhorar meus conhecimentos sobre Front-End, aprendi sobre todos os conceitos do sass lendo livros e a documentação."
+        },
+        {
+            "name":"Botstrap",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-bootstrap-240.png",
+            "descripton":"Aprendi sobre o botstrap na faculdade e dês de então venho utilizando em projetos."
+        },
+        {
+            "name":"JavaScript",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-javascript-240.png",
+            "descripton":"Aprendi sobre o JavaScript no meu curso de OpenCG e na faculdade, entretando venho melhorando meus conhecimentos com o tempo, estudando JSF aprendi mais conceitos sobre o JavaScript, quando estudava JSP decidi entender o JavaScript por completo, des de então venho lendo livros e participando de cursos para aprender mais sobre JavaScript, estudei toda a historia, sintaxe, os conceitos de programação funcional, EcmaScript 6 e TypeScript."
+        },
+        {
+            "name":"Jquery",
+            "img":"https://videosportifolio.blob.core.windows.net/images/jquery.png",
+            "descripton":"Aprendi sobre o Jquery estudando JavaScript, de certa forma aprendi bastante sobre, porem por se tratar de um framework antigo utilizei muito pouco em projetos."
+        },
+        {
+            "name":"TypeScript",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-typescript-240.png",
+            "descripton":"Tentando melhorar meus conhecimentos sobre JavaScript aprendi sobre TypeScript, tudo o que aprendi com TypeScript foi através de livros e cursos, hoje eu sei que não sei tudo entretanto eu sei a maioria dos conceitos e venho aprimorando dia a dia."
+        },
+        {
+            "name":"Angular",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-angularjs-240.png",
+            "descripton":"Aprendi sobre angular em um curso do capigemini, mesmo não sendo meu framework Front-End favorito possuo bastante conhecimento, mas por se tratar de um framework que eu não gosto muito não possuo projetos com esse framework"
+        },
+        {
+            "name":"React.js",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-react-160.png",
+            "descripton":"Sem duvida o React é o framework Front-End que eu possuo mais conhecimentos e projetos, eu gosto bastante do React, li bastantes livros sobre ele, li toda a documentação dele e por isso sempre procuro utilizar ele no desenvolvimento Front-End, eu não aprendi diretamente o React e sim sua versão mobile o React Native."
+        },
+        {
+            "name":"React Native",
+            "img":"https://videosportifolio.blob.core.windows.net/images/pngaaa.com-6471076.png",
+            "descripton":"Eu aprendi sobre o React Native desenvolvendo projetos mobile na faculdade, eu aprendi o React Native antes mesmo de aprender sobre o React, li diversos livros e toda a documentação sobre o framework, por se tratar do React gosto bastante desse Framework."
+        },
+        {
+            "name":"Next.js",
+            "img":"https://videosportifolio.blob.core.windows.net/images/nextjs-icon.png",
+            "descripton":"Tentando melhorar meus conhecimentos sobre React e Node.js eu estudei e aprendi sobre o Next.js esse portifolio foi desenvolvido utilizando Next.js"
+        },
+        {
+            "name":"MySql",
+            "img":"https://videosportifolio.blob.core.windows.net/images/mysql-icon.png",
+            "descripton":"Aprendi sobre o MySql e sql na faculdade em cursos e lendo livros, meus conhecimentos sobre banco de dados começa na faculdade no curso de estrutura de dados canônicas, nesse curso aprendi as estruturas de dados seus metodos para organização, reogornização e busca, futuramente aprofundei meus conhecimentos em bancos de dados através do curso Modelagem de dados na faculdade onde estudei sobre as historias dos bancos de dados alem de todos os tipos de estruturas de dados e SGBDs presentes no mercado, aprendi sobre SQL e me foquei no SGBD MySql"
+        },
+        {
+            "name":"Git",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-git-240.png",
+            "descripton":"Aprendi sobre Git e versionamento de codigos na faculdade e em cursos que fiz, de certa forma demorei bastante tempo para aprender por estar focado em outras tecnologias"
+        },
+        {
+            "name":"Node.js",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-node-js-240.png",
+            "descripton":"Buscando aprender mais sobre o mundo do JavaScript foquei em aprender sobre node.js para um desenvolvimento Back-end, foquei no desenvolvimento através do express e sequelize para integração com o banco de dados"
+        }
+       
+    ],
+    "HardwareRedes":[
+        {
+            "name":"Hardware",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-electronics-96.png",
+            "descripton":"Através dos cursos da minha faculdade e de pesquisas eu possuo conhecimentos sobre a estrutura, comportamentos, funcionalidades e historia dos componentes presentes no computador, vale lembrar que não possuo conhecimentos sobre engenharia elétrica apenas um conhecimentosobre eletrônica e componentes de computadores"
+        },
+        {
+            "name":"Sistemas Operacionais",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-operational-system-64.png",
+            "descripton":"Possuo conhecimentos em sistemas operacionais desktop, se tratando de windows, possuo diversos conhecimentos relacionados a seu funcionamento, estruturas etc, se tratando de windows minha experiência se foca no Kali Linux, possuindo conhecimentos de terminal basicos e conhecimentos basicos de PenTest."
+        },
+        {
+            "name":"Maquinas Virtuais",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-virtualbox-100.png",
+            "descripton":"Possuo diversos conhecimentos em ferramentas de virtualização como Virtual Box, vmWare e hyper-v, alem de possui conhecimentos sobre docker."
+        },
+        {
+            "name":"Redes",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-internet-96.png",
+            "descripton":"Tenho dominio sobre processos, protocolos e arquitetura de redes, alem de possuir dominio sobre criação e implementação de redes."
+        },
+        {
+            "name":"Docker",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-docker-96.png",
+            "descripton":"Possuo conhecimentos sobre docker, conceitos de imagens e containers, Docker Desktop, Docker Swarm, Docker Kitematic, Docker Compose, Docker Hub e comandos em geral"
+        }
+    ],
+    "Cloud":[
+        {
+            "name":"Azure",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-azure-96.png",
+            "descripton":"Possuo diversos conhecimentos sobre o azure, conhecimentos sobre suas estruturas como app service, app web static, containers, virtual machines e banco de dados."
+        },
+        {
+            "name":"Heroku",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-heroku-96.png",
+            "descripton":"Possuo conhecimentos sobre hospedagem de sistemas e banco de dados através do heroku."
+        },
+        {
+            "name":"Vercel",
+            "img":"https://videosportifolio.blob.core.windows.net/images/VercelIcon.png",
+            "descripton":"Possuo conhecimentos sobre o Vercel que é o serviço cloud de deploy de aplicações Next.js"
+        },
+        {
+            "name":"Firebase",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-firebase-96.png",
+            "descripton":"Possuo conhecimentos sobre deploy de aplicações e banco de dados Firebase"
+        }
+    ],
+    "Modelagem":[
+        {
+            "name":"Star Uml",
+            "img":"https://videosportifolio.blob.core.windows.net/images/kisspng-staruml-unified-modeling-language-xml-metadata-int-5c2f950cd7cf00.723378481546622220884.png",
+            "descripton":"Possuo conhecimento sobre modelagem de classes e funcionalidades utilizando o star Uml"
+        },
+        {
+            "name":"Metodologias agéis",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-scrum-64.png",
+            "descripton":"Possuo diversos conhecimentos sobre metodologias agéis e sistemas empresariais como SE, SAD, SIG, SIE entre outros, meu cuso superior é sistemas de informações por isso grande parte dele é focada em metodologias de desenvolvimento, gerenciamento de equipes e sistemas voltados para o âmbito empresarial."
+        },
+        {
+            "name":"Analise de requisitos",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-requirements-64.png",
+            "descripton":"Possuo diversos conhecimentos sobre analise de requisitos, por se tratar de uma parte do meu curso eu estudo bastante sobre requisitos, metodologias e tratativas com o usuario."
+        },
+        {
+            "name":"Analises de projetos",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-documents-64.png",
+            "descripton":"Possuo conhecimentos sobre analises de projetos por ser tratado em algumas materias da minha faculdade em termos de produção de documentos como canvas, kanban entre outros."
+        }
+    ],
+    "MatematicaLogica":[
+        {
+            "name":"Matematica Discreta",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-mathematic-66.png",
+            "descripton":"Possuo conhecimentos sobre matematica discreta por se tratar de uma materia do meu curso, esse curso ministra os seguintes conteudos: Conjuntos e operações com conjuntos, Funções e relações, Teoria dos grafos, Lógica matemática, Noções de teoria dos números, Algoritmos e complexidade de algoritmos, Matemática da computação, Teoria da informação, Teoria da criptografia"
+        },
+        {
+            "name":"Algebra Linear",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-plot-100 (1).png",
+            "descripton":"Algebra linear é uma das materias do meu curso e possui os seguintes temas: Espaços vetoriais e operações com vetores, Sistemas lineares de equações, Matrizes e operações com matrizes, Determinantes e propriedades, Espaços de Hilbert e normas, Autovalores e autovetores, Diagonalização de matrizes, Transformações lineares e matrizes de transformação, Produto interno e ortogonalidade, Espaços de Banach e Teorema espectral, Sistemas dinâmicos lineares e equações diferenciais lineares."
+        },
+        {
+            "name":"Calculo 1",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-calculus-64 (1).png",
+            "descripton":"Calculo 1 é uma materia que eu vi na faculdade e possui os seguintes conteudos: Limites e continuidade, Derivadas e aplicações das derivadas, Integrais e aplicações das integrais, Técnicas de integração, Equações diferenciais e aplicações das equações diferenciais."
+        },
+        {
+            "name":"Programação Estrutural",
+            "img":"https://videosportifolio.blob.core.windows.net/images/4564933.png",
+            "descripton":"Eu aprendi sobre programação estrutural quando estudava C e é obvio que eu ainda uso esse paradigma pois ele esta presente em praticamente todas as linguagens de programação."
+        },
+        {
+            "name":"Programação Orientada a Objetos",
+            "img":"https://videosportifolio.blob.core.windows.net/images/icons8-object-96.png",
+            "descripton":"Programação orientada a objetos e seus paradgimas é algo que eu estudei bastante e sempre aplico seus conceitos em meus projetos"
+        },
+        {
+            "name":"Programação Funcional",
+            "img":"https://videosportifolio.blob.core.windows.net/images/functional-programming.svg",
+            "descripton":"Eu aprendi sobre programação funcional estudando C e ainda utilizo esse paradigma porque muitas linguagens como JavaScript ainda utilizam esse paradigma."
+        },
+        {
+            "name":"Programação Orientada a Aspectos",
+            "img":"https://videosportifolio.blob.core.windows.net/images/4047394_developer_development_object_oriented_programming_icon.png",
+            "descripton":"Eu aprendi sobre programação orientada a aspectos quando estudava sobre spring e utilizo frequentemente."
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "images": [
+        {
+            "name": "Recolor eyes",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/acs_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/acs.jpg"
+            ],
+            "description": "Esse foi um trabalho que fiz para testar os conhecimentos de recolorização do photoshop",
+            "type":"img"
+        },
+        {
+            "name": "Colt",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/colt2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/colt2.jpg",
+                "https://videosportifolio.blob.core.windows.net/images/colt1.jpg"
+            ],
+            "description": "Esse projeto foi um projeto voltado para a pintura digital simulando objetos 3d",
+            "type":"img"
+        },
+        {
+            "name": "Shield Captain america",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/escudo_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/escudo.jpg"
+            ],
+            "description": "Esse é mais um projeto voltado para a pintura digital simulando objetos 3d",
+            "type":"img"
+        },
+        {
+            "name": "Projeto Montanha Russa",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/projeto%20montanha%20russa.ico.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/projeto%20montanha%20russa.ico.jpg"
+            ],
+            "description": "Esse projeto foi uma ideia que tive em uma aula de design",
+            "type":"img"
+        },
+        {
+            "name": "Bancada de Trabalho",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/projeto bancada de trabalho_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/projeto bancada de trabalho.jpg"
+            ],
+            "description": "Esse projeto foi um projeto que fiz pensando no jogo Red Dead Redemption",
+            "type":"img"
+        },
+        {
+            "name": "Luigi",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/c_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/c.jpg"
+            ],
+            "description": "Esse projeto foi voltado para aprender sober pintura digital",
+            "type":"img"
+        },
+        {
+            "name": "Aerondnight",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/Sem Título-10-2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/Sem Título-10-2.jpg",
+                "https://videosportifolio.blob.core.windows.net/images/Sem Título-10-1.jpg"
+            ],
+            "description": "Esse projeto foi voltado para a pintura digital e com foco em um item do jogo The Witcher",
+            "type":"img"
+        },
+        {
+            "name": "Medalion The witcher",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/the witcher logo 2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/the witcher logo 2.jpg",
+                "https://videosportifolio.blob.core.windows.net/images/the witcher logo 1.jpg"
+            ],
+            "description": "Esse projeto foi um projeto voltado para a pintura digital com foco em um item do jogo The Witcher",
+            "type":"img"
+        },
+        {
+            "name": "Best Potography",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/trabalho arvore 2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/trabalho arvore 2.jpg",
+                "https://videosportifolio.blob.core.windows.net/images/trabalho arvore 1.jpg"
+            ],
+            "description": "Esse foi um projeto voltado para a ideia de melhorar fotografias e adicionar elementos em imagens",
+            "type":"img"
+        },
+        {
+            "name": "Best monster",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/trabalho domo2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/trabalho domo2.jpg"
+            ],
+            "description": "Esse projeto foi voltado para a ideia de se adicionar itens a imagens",
+            "type":"img"
+        },
+        {
+            "name": "Mystic work",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/trabalho mistico_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/trabalho mistico.jpg"
+            ],
+            "description": "Esse projeto foi um projeto voltado para o conceito fantasioso em imagens",
+            "type":"img"
+        },
+        {
+            "name": "Pintura digital",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/903536_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/903536.jpg"
+            ],
+            "description": "Esse projeto foi um projeto voltado para a pintura digital",
+            "type":"img"
+        },
+        {
+            "name": "Desintegração",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/desintegração_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/desintegração.jpg"
+            ],
+            "description":"Esse projeto foi um projeto voltado para a manipulação de imagens",
+            "type":"img"
+        },
+        {
+            "name": "Espada the Witcher",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/espada the witcher _icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/espada the witcher .jpg"
+            ],
+            "description":"Esse projeto foi um projeto voltado para a pintura digital",
+            "type":"img"
+        },
+        {
+            "name": "Mjounir",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/martelo_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/martelo.jpg"
+            ],
+            "description":"Esse projeto foi um projeto voltado para a pintura digital",
+            "type":"img"
+        },
+        {
+            "name": "Pintura Digital 2",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/pintura digital 2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/pintura digital 2.jpg"
+            ],
+            "description":"Esse projeto foi um projeto voltado para o aprendizado com pinturas digitais",
+            "type":"img"
+        },
+        {
+            "name": "Logo Assassin's Creed",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/Sem Título-2_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/Sem Título-2.jpg"
+            ],
+            "description":"Esse foi um projeto voltado para a pintura digital focado em um item do jogo Assassin's Creed",
+            "type":"img"
+        },
+        {
+            "name": "Blade of Olympius",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/Sem Título-4_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/Sem Título-4.jpg"
+            ],
+            "description":"Esse foi um projeto voltado para a pintura digital com foco no jogo God Of War",
+            "type":"img"
+        },
+        {
+            "name": "Trabalho Capa Dvd",
+            "icon": "https://videosportifolio.blob.core.windows.net/images/trabalho capa dvd final_icon.jpg",
+            "content": [
+                "https://videosportifolio.blob.core.windows.net/images/trabalho capa dvd final.jpg",
+                "https://videosportifolio.blob.core.windows.net/images/logo.jpg"
+            ],
+            "description": "Esse projeto foi um projeto voltado para a simulação da criação de uma capa de um dvd ficticio",
+            "type":"img"
+        }
+        ],
+    "videos":
+    [
+        {
+            "name":"Gryffindor icon",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h29m56s675_icon.jpg",
+            "content":["QdbDFHpGCJE"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações com propriedades 3d em um determinado logo",
+            "type":"video"
+        },
+        {
+            "name":"Yeneffer animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h30m33s313_icon.jpg",
+            "content":["P-rb0aHJzH0"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações apartir de imagens fixas",
+            "type":"video"
+        },
+        {
+            "name":"Logo animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h31m32s557_icon.jpg",
+            "content":["KVDcNwAk9Rs"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações de escrita e efeitos através do saber que é um plugin de criação de efeitos no after effects",
+            "type":"video"
+        },
+        {
+            "name":"Far cry 5 animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h31m45s394_icon.jpg",
+            "content":["tRz4X5XF_7M"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações com aspectos 3d apartir de imagens fixas",
+            "type":"video"
+        },
+        {
+            "name":"The witcher signs animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h32m06s432_icon.jpg",
+            "content":["lKKK0KZjJ4A"],
+            "description":"Esse projeto foi uma animação voltado para a criação de itens com animações saber e ilumeinações 3d",
+            "type":"video"
+        },
+        {
+            "name":"The Witcher animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h32m35s215_icon.jpg",
+            "content":["FEbmfHevmQY"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações 3d no after effects",
+            "type":"video"
+        },
+        {
+            "name":"Cave animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h32m23s063_icon.jpg",
+            "content":["wgAkZ0JjPDY"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações 3d com o  after effects",
+            "type":"video"
+        },
+        {
+            "name":"The witcher sword animation",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h32m54s483_icon.jpg",
+            "content":["Kgkd3z7ek4c"],
+            "description":"Esse projeto foi um projeto voltado para a criação de animações 3d com o after effects e o maya",
+            "type":"video"
+        },
+        {
+            "name":"operation amazonia",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h33m19s477_icon.jpg",
+            "content":["0ef-D3CA9gg"],
+            "description":"Esse foi um projeto voltado para uma criação de um video institucional sobre a operação amazônia 2020 que foi um exercicio realiza pelo grupo militar que eu servi que era o comando de artilharia do exercito e muitos os grupos militares no brasil",
+            "type":"video"
+        },
+        {
+            "name":"Artilharia",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h34m00s896_icon.jpg",
+            "content":["wz3jF6Lcugc"],
+            "description":"Esse foi um projeto que eu realizei quando servia que se trata de um video institucional em comemoração do dia da artilharia",
+            "type":"video"
+        },
+        {
+            "name":"Harry Potter birthday",
+            "icon":"https://videosportifolio.blob.core.windows.net/videos/vlcsnap-2023-01-29-02h45m46s561_icon.jpg",
+            "content":["ALcpDh4RYy8"],
+            "description":"Esse foi um projeto simples que eu fiz em um final de semana para o o aniversario de uma amiga que tinha o tema do harry potter",
+            "type":"video"
+        }
+    ],
+    "3d":
+    [
+        {
+            "name":"M1 Abrams",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/m1_abrams.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/m1_abrams.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d do blindado americano m1 abrams",
+            "type":"3d"
+        },
+        {
+            "name":"T80",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/t80.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/t80.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d do blindado russo T80",
+            "type":"3d"
+        },
+        {
+            "name":"Imbel ia2",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/imbel_ia2.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/imbel_ia2.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d do fuzil ia2 do exercito brasileiro",
+            "type":"3d"
+        },
+        {
+            "name":"Human body mesh",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/human_body_mesh.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/human_body_mesh.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de uma 3d mesh para corpos humanos de diversos espectros para serem reutilizados",
+            "type":"3d"
+        },
+        {
+            "name":"Frostmourne",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/frostmourne.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/frostmourne.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d da Frostmourne uma espada do jogo World of Warcraft",
+            "type":"3d"
+        },
+        {
+            "name":"Browning m2",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/Browning_M2.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/browning_m2.glb"],
+            "description":"Esse foi um projeto feito por mim para o densenvovlimento de um modelo 3d da browning m2 uma metralhadora de suporte de tropas amplamente utilizada no mundo",
+            "type":"3d"
+        },
+        {
+            "name":"Jax and Daxter Weapon",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/Jax_and_Daxter_weapon.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/jak_and_daxter_weapon.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d baseado em uma das armas utilizadas no jogo Jax And Daxter",
+            "type":"3d"
+        },
+        {
+            "name":"Colt",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/colt.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/colt.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d baseado em uma arma da seria Supernatural",
+            "type":"3d"
+        },
+        {
+            "name":"Spartan Helmet",
+            "icon":"https://videosportifolio.blob.core.windows.net/fbx/spartan_helmet.jpg",
+            "content":["https://videosportifolio.blob.core.windows.net/fbx/spartan_helmet.glb"],
+            "description":"Esse foi um projeto feito por mim para o desenvolvimento de um modelo 3d baseado em capacete espartano",
+            "type":"3d"
+        }
+    ]
+  
+}
