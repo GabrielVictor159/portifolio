@@ -44,6 +44,7 @@ export default function Home() {
   const [vetorPortifolio, setVetorPortifolio] = useState([])
   const [portfolio, setPortfolio] = useState<any[]>([]);
   const [selectPortifolioItem, setSelectPortifolioItem] = useState(false);
+  const [select, setSelect] = useState(0);
   const division2Id = styles.division2;
   const division3Id = styles.division3;
   const division4Id = styles.division4;
@@ -60,6 +61,7 @@ export default function Home() {
               onClick={e => {
                 setTimeout(() => {
                   setSelectPortifolioItem(value);
+                  setSelect(0);
                 }, 600)
                 window.scrollTo({
                   top: document.getElementById('divisionItemViewer')?.offsetTop,
@@ -329,7 +331,7 @@ export default function Home() {
           <div id="divisionItemViewer" style={{ position: 'relative', top: 700, overflow: 'hidden', width: '100%' }}>
             {selectPortifolioItem
               ? <>
-                <ViewerItem item={selectPortifolioItem} />
+                <ViewerItem item={selectPortifolioItem} select={select} setSelect={setSelect}/>
               </>
               : <></>
             }

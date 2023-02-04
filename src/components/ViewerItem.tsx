@@ -12,7 +12,7 @@ const lazyScroll = ()=>{
     
     window.scrollY>= a
     try{
-    return  MapItem(props.item)
+    return  MapItem(props.item, props.select, props.setSelect)
     }
     catch{
       
@@ -64,8 +64,8 @@ const lazyScroll = ()=>{
   );
 }
 
-function MapItem(item: any) {
-  const [select, setSelect] = useState(0);
+function MapItem(item: any, select:any, setSelect:any) {
+  
   const [aspectRatios, setAspectRatios] = useState<number[]>([]);
 
   const getNaturalAspectRatio = async (src: string, index: number) => {
