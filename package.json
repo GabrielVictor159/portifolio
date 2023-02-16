@@ -5,7 +5,9 @@
   "type": "commonjs",
   "scripts": {
     "start": "node server.js",
-    "build": "tsc "
+    "heroku-postbuild": "npm run build",
+    "heroku-prebuild": "npm install -g typescript",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "@react-three/drei": "^9.56.4",
