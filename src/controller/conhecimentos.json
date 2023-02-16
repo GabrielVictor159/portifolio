@@ -163,6 +163,11 @@
             "name":"Node.js",
             "img":"https://videosportifolio.blob.core.windows.net/images/icons8-node-js-240.png",
             "descripton":"Buscando aprender mais sobre o mundo do JavaScript foquei em aprender sobre node.js para um desenvolvimento Back-end, foquei no desenvolvimento através do express e sequelize para integração com o banco de dados"
+        },
+        {
+            "name":"jUnit",
+            "img":"https://videosportifolio.blob.core.windows.net/images/pngwing.com.png",
+            "descripton":"Buscando aprender sobre como melhorar meus codigos aprendi sobre Test-Driven Development (TDD), essa metodologia utiliza um desenvolvimento voltado a testes dessa forma busquei aprender sobre o jUnit que é a ferramenta de testes mais utilizada em Java"
         }
        
     ],
