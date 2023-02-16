@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node server.js",
-    "build": "tsc -w"
+    "build": "tsc -w && node server.js"
   },
   "dependencies": {
     "@react-three/drei": "^9.56.4",
