@@ -2,18 +2,15 @@
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "npm run build",
-    "heroku-prebuild": "npm install -g typescript",
-    "build": "tsc -p ."
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-three/drei": "^9.56.4",
-    "@types/http-proxy": "^1.17.9",
     "axios": "^1.2.5",
-    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.8.0",
