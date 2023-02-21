@@ -191,12 +191,14 @@
                 "https://videosportifolio.blob.core.windows.net/dev/comunique_icon.jpg",
                 "https://videosportifolio.blob.core.windows.net/dev/comunique_prototipo_icon.jpg"
             ],
-            "description": "Esse é um projeto de faculdade para ser implementado no centro de ensino CEM 2 do gama (local onde moro), de forma simplificada se assemelha bastante as redes sociais como telegram e whatshap, possui outras funcionalidades como jogos, agenda e noticias, eu fiquei responsavel por desenvolver o front-end mobile dessa aplicação, eu fiz o front-end utilizando o React native, vale lembrar que dentro desse projeto possui outro projeto meu que é o jogo de xadrez feito em React native, esse app ainda não esta pronto esta faltando oback-end que sera desenvolvido nos proximos meses",
+            "description": "Esse é um projeto de faculdade para ser implementado no centro de ensino CEM 2 do gama (local onde moro), de forma simplificada se assemelha bastante as redes sociais como telegram e whatshap, possui outras funcionalidades como jogos, agenda e noticias, eu fiquei responsavel por desenvolver o full-satck dessa aplicação, eu fiz o front-end utilizando o React native e o back-end utilizando java spring, vale lembrar que dentro desse projeto possui outro projeto meu que é o jogo de xadrez feito em React native, esse app ainda não esta pronto esta faltando oback-end que sera desenvolvido nos proximos meses",
             "links": [
                 "https://github.com/GabrielVictor159/ComuniqueApp",
+                "https://github.com/GabrielVictor159/ComuniqueCEM-BackEnd",
                 "https://www.figma.com/file/QdK4cWNznBbr0YiCUymJDw/Autismo?node-id=0%3A1"
             ],
             "linksType": [
+                "github",
                 "github",
                 "figma"
             ],
