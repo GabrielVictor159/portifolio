@@ -232,32 +232,32 @@ export default function Home() {
           <div className={styles.conhecimentoOptionsContainer}>
             <ConhecimentoOption
               text={"UI/UX Design"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-pen-100.png"}
+              src={"images/icons8-pen-100.png"}
               onClick={(e: any) => setOptionKnow(1)}
             />
             <ConhecimentoOption
               text={"Desenvolvimento"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-source-code-96.png"}
+              src={"images/icons8-source-code-96.png"}
               onClick={(e: any) => setOptionKnow(2)}
             />
             <ConhecimentoOption
               text={"Hardware, Redes e Sistemas"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-electronics-100.png"}
+              src={"images/icons8-electronics-100.png"}
               onClick={(e: any) => setOptionKnow(3)}
             />
             <ConhecimentoOption
               text={"Cloud"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-cloud-development-100.png"}
+              src={"images/icons8-cloud-development-100.png"}
               onClick={(e: any) => setOptionKnow(4)}
             />
             <ConhecimentoOption
               text={"Modelagem de Projetos e Negocios"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-training-100.png"}
+              src={"images/icons8-training-100.png"}
               onClick={(e: any) => setOptionKnow(5)}
             />
             <ConhecimentoOption
               text={"Matematica e logica de programação"}
-              src={"https://videosportifolio.blob.core.windows.net/images/icons8-logic-64.png"}
+              src={"images/icons8-logic-64.png"}
               onClick={(e: any) => setOptionKnow(6)}
             />
           </div>
