@@ -6,32 +6,32 @@ import axios from "axios";
 import YouTube from "react-youtube";
 export default function ViewerItem(props: any) {
 
-const lazyScroll = ()=>{
-  let a = document.getElementById('divisionItemViewer')?.offsetTop
-  if(a){
-    
-    window.scrollY>= a
-    try{
-    return  MapItem(props.item, props.select, props.setSelect)
-    }
-    catch{
-      
+  const lazyScroll = () => {
+    let a = document.getElementById('divisionItemViewer')?.offsetTop
+    if (a) {
+
+      window.scrollY >= a
+      try {
+        return MapItem(props.item, props.select, props.setSelect)
+      }
+      catch {
+
+      }
     }
   }
-}
   return (
     <>
 
       <div className={styles.divisionItemPortifolio}>
-        <div className={styles.boxItemsView}>
+        <div data-aos="fade-left" className={styles.boxItemsView}>
 
-        {
-         lazyScroll()
-        }
-          
+          {
+            lazyScroll()
+          }
+
 
         </div>
-        <div className={styles.boxItemsDescricao}>
+        <div data-aos="fade-down" className={styles.boxItemsDescricao}>
           <h1>{props.item.name}</h1>
           <br />
           <p>{props.item.description}</p>
@@ -39,7 +39,7 @@ const lazyScroll = ()=>{
         </div>
         {
           props.item.links !== undefined
-            ? <div className={styles.linksBox}>
+            ? <div data-aos="fade-down" className={styles.linksBox}>
 
 
               <>
@@ -64,8 +64,8 @@ const lazyScroll = ()=>{
   );
 }
 
-function MapItem(item: any, select:any, setSelect:any) {
-  
+function MapItem(item: any, select: any, setSelect: any) {
+
   const [aspectRatios, setAspectRatios] = useState<number[]>([]);
 
   const getNaturalAspectRatio = async (src: string, index: number) => {
@@ -116,7 +116,7 @@ function MapItem(item: any, select:any, setSelect:any) {
     case 'img':
       return (
         <>
-          <div className={styles.boxOptions}>
+          <div data-aos="fade-down" className={styles.boxOptions}>
             {item.content.map((value: any, index: any) => {
               return (
                 <img
@@ -126,29 +126,29 @@ function MapItem(item: any, select:any, setSelect:any) {
                 ></img>
               );
             })}
-          </div>
-          <div className={styles.view}>
+          </div >
+          <div data-aos="fade-down" className={styles.view}>
             <img className={styles.imgView} src={item.content[select]}></img>
-          </div>
+          </div >
         </>
       );
     case 'video':
       return (
         <>
-             <div className={styles.view}>
+          <div data-aos="fade-down" className={styles.view}>
             {
               isImage(item.content[select])
                 ? <img className={styles.imgView} style={{ objectFit: aspectRatios[select] >= 1 ? 'cover' : 'contain' }} src={item.content[select]} />
-                :   <YouTube style={{  textAlign:'center'}} opts={{width:'100%', height:'100%'}} videoId={item.content[select]} className={styles.videoView}/>
+                : <YouTube style={{ textAlign: 'center' }} opts={{ width: '100%', height: '100%' }} videoId={item.content[select]} className={styles.videoView} />
             }
-          </div>
+          </div >
         </>
       );
     case '3d':
       return (
         <>
-          <div className={styles.view}>
-           
+          <div data-aos="fade-down" className={styles.view}>
+
 
             <ModelViewer url={item.content[select]} background={'#3D3D3D'} />
           </div>
@@ -159,7 +159,7 @@ function MapItem(item: any, select:any, setSelect:any) {
         <>
           {
             item.content.length > 1
-              ? <div className={styles.boxOptions}>
+              ? <div data-aos="fade-down" className={styles.boxOptions}>
                 {
                   item.contentIcons.map((value: any, index: any) => {
                     return (
@@ -170,11 +170,11 @@ function MapItem(item: any, select:any, setSelect:any) {
               </div>
               : <></>
           }
-          <div className={styles.view}>
+          <div data-aos="fade-down" className={styles.view}>
             {
               isImage(item.content[select])
                 ? <img className={styles.imgView} style={{ objectFit: aspectRatios[select] >= 1 ? 'cover' : 'contain' }} src={item.content[select]} />
-                :   <YouTube style={{  textAlign:'center'}} opts={{width:'100%', height:'100%'}} videoId={item.content[select]} className={styles.videoView}/>
+                : <YouTube style={{ textAlign: 'center' }} opts={{ width: '100%', height: '100%' }} videoId={item.content[select]} className={styles.videoView} />
             }
           </div>
         </>

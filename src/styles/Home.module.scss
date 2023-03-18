@@ -1,10 +1,8 @@
-
-
 @import "../styles/components/geralStyle.scss";
 @import "./components/animationStyles.scss";
 
 $color1: rgb(255, 196, 0);
-$textColor: 4px 4px 0px rgba(10,10,10,0.6);
+$textColor: 4px 4px 0px rgba(10, 10, 10, 0.6);
 
 .main {
 
@@ -15,23 +13,25 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
   position: absolute;
   top: 0;
   left: 0;
+
   h3 {
     color: $color1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: $textColor;
   }
-  h1{
+
+  h1 {
     text-shadow: $textColor;
   }
-  
-  p{
+
+  p {
     text-shadow: $textColor;
   }
 
   .division {
     width: 100%;
     display: flex;
-   
+
     .backgroundDivision {
       width: 100%;
       height: 100%;
@@ -55,7 +55,8 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
     position: relative;
     top: 700px;
     border-top: 3px solid $color1;
-    h1{
+
+    h1 {
       text-shadow: none;
       color: white;
       font-size: 18px;
@@ -84,7 +85,7 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
   height: 600px;
   z-index: -2;
 
-   
+
   h1 {
     color: white;
     font-size: 38px;
@@ -97,10 +98,11 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
   }
 
   .divisionContainerText {
-   
+
     width: 400px;
     position: relative;
-    .buttonContate{
+
+    .buttonContate {
       padding-right: 20px;
       padding-left: 20px;
       padding-top: 10px;
@@ -110,11 +112,12 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
       transition: all 0.5s;
       color: $color1;
       cursor: pointer;
-      
+
     }
-    .buttonContate:hover{
+
+    .buttonContate:hover {
       background-color: $color1;
-        color: white;
+      color: white;
     }
   }
 }
@@ -128,42 +131,47 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
   align-items: center;
   justify-content: space-around;
   overflow: visible;
-  
-  .containerDescription{
+
+  .containerDescription {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1{
+
+    h1 {
       font-size: 38px;
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: $color1;
       text-align: center;
     }
-    p{
+
+    p {
       color: white;
-      font-size: 24px;
       text-align: center;
-      font-family:'Courier New', Courier, monospace;
+      text-shadow: none !important;
     }
   }
-  .tituloContainer{
+
+  .tituloContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+
     h1 {
       color: white;
       font-size: 38px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
     p {
       color: white;
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
   }
+
   .conhecimentoOptionsContainer {
     display: flex;
     flex-direction: row;
@@ -171,11 +179,11 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
     justify-content: center;
     gap: 80px;
 
-   
-   
+
+
   }
-  
-  .containerConhecimentos{
+
+  .containerConhecimentos {
     width: 50%;
     min-height: 80px;
     display: flex;
@@ -185,21 +193,24 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
     gap: 40px;
     background-color: rgba($color: #000000, $alpha: 0.3);
     padding: 50px;
-    .ConhecimentoIcon{
+
+    .ConhecimentoIcon {
       max-width: 50px;
       max-height: 50px;
-      object-fit:contain;
+      object-fit: contain;
       overflow: visible;
       cursor: pointer;
-      filter: drop-shadow(8px 8px 0px rgba(10,10,10,0.4));
+      filter: drop-shadow(8px 8px 0px rgba(10, 10, 10, 0.4));
       position: relative;
       top: 0;
       transition: all 0.5s;
-      &:hover{
+
+      &:hover {
         top: -7px;
       }
     }
   }
+
   .conhecimentoOption {
     width: 250px;
     height: 300px;
@@ -210,39 +221,41 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
     align-items: center;
     cursor: pointer;
     text-align: center;
-    
+
     h2 {
       color: white;
       transition: all 0.5s;
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-  
+
     .conhecimentoOptionImg {
       width: 80px;
       height: 80px;
       transition: all 0.5s;
       filter: colorize-image(white);
-  
+
     }
-  
+
     &:hover {
       .conhecimentoOptionImg {
         filter: colorize-image($color1);
       }
+
       h2 {
         color: $color1;
       }
     }
   }
-  #Index_division3{
+
+  #Index_division3 {
     width: 500px;
     height: 500px;
     background-color: #2b2b2b;
-    }
+  }
 }
 
 
-#division3{
+#division3 {
   width: 100%;
   min-height: 700px;
   background-color: #494949;
@@ -251,27 +264,32 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
   justify-content: space-around;
   align-items: center;
   position: sticky;
-  .portifolioBoxTitulo{
+
+  .portifolioBoxTitulo {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     h1 {
       color: white;
       font-size: 38px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
     p {
       color: white;
       font-size: 18px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
   }
-  .portifolioBoxOptions{
+
+  .portifolioBoxOptions {
     display: flex;
     flex-direction: row;
     gap: 1em;
     border-bottom: 2px solid white;
-    .optionPortifolioSelect{
+
+    .optionPortifolioSelect {
       color: rgb(187, 187, 187);
       font-size: 18px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -280,17 +298,20 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
       top: 17px;
       cursor: pointer;
       padding-bottom: 10px;
-     &:hover{
+
+      &:hover {
+        color: $color1;
+        border-bottom: 4px solid $color1;
+      }
+    }
+
+    .portifolioBoxOptionActive {
       color: $color1;
       border-bottom: 4px solid $color1;
-     }
-    }
-    .portifolioBoxOptionActive{
-      color: $color1;
-          border-bottom: 4px solid $color1;
     }
   }
-  .boxImagesPortifolio{
+
+  .boxImagesPortifolio {
     width: 70em;
     display: flex;
     flex-direction: row;
@@ -298,7 +319,8 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
     justify-content: center;
     gap: 20px;
     padding: 1em;
-    img{
+
+    img {
       border: 5px solid rgb(32, 32, 32);
       width: 300px;
       height: 200px;
@@ -308,228 +330,271 @@ $textColor: 4px 4px 0px rgba(10,10,10,0.6);
       transition: all 0.5s;
       cursor: pointer;
       filter: grayscale(0%);
-      &:hover{
+
+      &:hover {
         border: 5px solid white;
         transform: scale(1.07);
         filter: grayscale(100%);
       }
     }
   }
-  .boxPaginationPortifolio{
+
+  .boxPaginationPortifolio {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    h1{
+
+    h1 {
       color: $color1;
       text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.4);
     }
-    img{
+
+    img {
       width: 3em;
       height: 3em;
-      filter: drop-shadow(5px 0px 0px rgba(10,10,10,0.5));
+      filter: drop-shadow(5px 0px 0px rgba(10, 10, 10, 0.5));
       cursor: pointer;
     }
-    .paginationBackPage{
+
+    .paginationBackPage {
       transform: scale(-1);
     }
   }
+}
+
+#division4 {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgb(45, 48, 51);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.4);
   }
-  #division4{
-    width: 100%;
-    min-height: 600px;
-    background-color: rgb(45, 48, 51);
+
+  p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .boxContatos {
+    max-width: 900px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    h1{
-      color: white;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      text-shadow: 5px 5px 0px rgba($color: #000000, $alpha: 0.4);
-    }
-    p{
-      color: white;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .boxContatos{
-      max-width: 900px;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .contatoBox {
+      width: 250px;
+      height: 60px;
       display: flex;
       flex-direction: row;
-      gap: 40px;
-      flex-wrap: wrap;
-      justify-content: center;
-      .contatoBox{
-        width: 250px;
-        height: 60px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding-left: 20px;
-        align-items: center;
-        background-color: rgb(60, 65, 70);
-        img{
-          width: 30px;
-          height: 30px;
-          object-fit: cover;
-        }
-        p{
-          position: relative;
-          left: 20px;
-          color: $color1;
-          text-shadow: none;
-        }
+      justify-content: flex-start;
+      padding-left: 20px;
+      align-items: center;
+      background-color: rgb(60, 65, 70);
+
+      img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+      }
+
+      p {
+        position: relative;
+        left: 20px;
+        color: $color1;
+        text-shadow: none;
       }
     }
   }
-  
-@media only screen and (min-width: 1200px ) and (max-width:1920px) {
-  #division1{
-    h3{
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1920px) {
+  #division1 {
+    h3 {
       font-size: 24px;
     }
-    h1{
+
+    h1 {
       font-size: 28px;
     }
-    p{
+
+    p {
       font-size: 16px;
     }
   }
-  #division2{
-    .tituloContainer{
-      h1{
+
+  #division2 {
+    .tituloContainer {
+      h1 {
         font-size: 30px;
       }
-      p{
+
+      p {
         font-size: 17px;
       }
     }
-  .conhecimentoOption{
-    width: 150px;
-    height: 200px;
-    .conhecimentoOptionImg {
-      width: 40px;
-      height: 40px;
+
+    .conhecimentoOption {
+      width: 150px;
+      height: 200px;
+
+      .conhecimentoOptionImg {
+        width: 40px;
+        height: 40px;
+      }
+
+      h2 {
+        font-size: 15px;
+      }
     }
-    h2{
-      font-size: 15px;
-    }
-    }
-    .containerConhecimentos{
-      .ConhecimentoIcon{
+
+    .containerConhecimentos {
+      .ConhecimentoIcon {
         width: 33px;
         height: 33px;
       }
     }
-    .containerDescription{
-      h1{
+
+    .containerDescription {
+      h1 {
         font-size: 25px;
       }
-      p{
+
+      p {
         font-size: 15px;
       }
     }
-   
+
   }
- 
+
 }
-@media only screen and (min-width: 600px ) and (max-width:1200px) {
-  #division1{
-    h3{
+
+@media only screen and (min-width: 600px) and (max-width:1200px) {
+  #division1 {
+    h3 {
       font-size: 24px;
     }
-    h1{
+
+    h1 {
       font-size: 28px;
     }
-    p{
+
+    p {
       font-size: 16px;
     }
   }
-  #division2{
-    .tituloContainer{
-      h1{
+
+  #division2 {
+    .tituloContainer {
+      h1 {
         font-size: 30px;
       }
-      p{
+
+      p {
         font-size: 17px;
       }
     }
-  .conhecimentoOption{
-    width: 150px;
-    height: 200px;
-    .conhecimentoOptionImg {
-      width: 40px;
-      height: 40px;
+
+    .conhecimentoOption {
+      width: 150px;
+      height: 200px;
+
+      .conhecimentoOptionImg {
+        width: 40px;
+        height: 40px;
+      }
+
+      h2 {
+        font-size: 15px;
+      }
     }
-    h2{
-      font-size: 15px;
-    }
-    }
-    .containerConhecimentos{
-      .ConhecimentoIcon{
+
+    .containerConhecimentos {
+      .ConhecimentoIcon {
         width: 33px;
         height: 33px;
       }
     }
-    .containerDescription{
-      h1{
+
+    .containerDescription {
+      h1 {
         font-size: 25px;
       }
-      p{
+
+      p {
         font-size: 15px;
       }
     }
   }
- 
+
 }
-@media only screen and (min-width: 300px ) and (max-width:600px) {
-  
-  #division1{
-    h3{
+
+@media only screen and (min-width: 300px) and (max-width:600px) {
+
+  #division1 {
+    h3 {
       font-size: 20px;
     }
-    h1{
+
+    h1 {
       font-size: 24px;
     }
-    p{
+
+    p {
       font-size: 13 px;
     }
 
   }
-  #division2{
-    .tituloContainer{
-      h1{
+
+  #division2 {
+    .tituloContainer {
+      h1 {
         font-size: 30px;
       }
-      p{
+
+      p {
         font-size: 17px;
       }
     }
-  .conhecimentoOption{
-    width: 150px;
-    height: 200px;
-    .conhecimentoOptionImg {
-      width: 40px;
-      height: 40px;
+
+    .conhecimentoOption {
+      width: 150px;
+      height: 200px;
+
+      .conhecimentoOptionImg {
+        width: 40px;
+        height: 40px;
+      }
+
+      h2 {
+        font-size: 15px;
+      }
     }
-    h2{
-      font-size: 15px;
-    }
-    }
-    .containerConhecimentos{
-      .ConhecimentoIcon{
+
+    .containerConhecimentos {
+      .ConhecimentoIcon {
         width: 33px;
         height: 33px;
       }
     }
-    .containerDescription{
-      h1{
+
+    .containerDescription {
+      h1 {
         font-size: 25px;
       }
-      p{
+
+      p {
         font-size: 15px;
       }
     }
   }
- 
-}
 
+}
