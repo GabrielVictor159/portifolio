@@ -132,7 +132,7 @@ export default function Home() {
 
   }, [uxPortifolio, selectPortifolio])
   useEffect(() => {
-    document.body.style.background = "rgb(71, 71, 71)";
+    document.body.style.background = "linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(83,84,84,1) 100%)";
   }, []);
   const mapConhecimentos = () => {
     let a: any[] = [];
