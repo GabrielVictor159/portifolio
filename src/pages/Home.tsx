@@ -223,10 +223,9 @@ export default function Home() {
 
           <div className={styles.divisionContainerText} data-aos="fade-down">
             <h3>Introdução</h3>
-            <h1>Desenvolvedor Full Stack, UI/UX Designer</h1>
+            <h1>Desenvolvedor</h1>
             <p>
-              Estudante de Sistemas de Informação com foco em se tornar um
-              desenvolvedor Full Stack inserido no mercado
+              Atualmente trabalho com Desenvolvimento Back-End focado em .NET mas procuro novas experiências não me limitando ao Back-End
             </p>
           </div>
         </div>
@@ -315,16 +314,16 @@ export default function Home() {
           <div className={styles.portifolioBoxTitulo}>
             <br />
             <h3 data-aos="fade-down">Portifolio</h3>
-            <h1 data-aos="fade-down">Minhas Coleções de portifolio</h1>
-            <p data-aos="fade-down">Selecione entre o ambiente entre UX/UI ou desenvolvimento</p>
+            <h1 data-aos="fade-down">Minha coleção de projetos pessoais</h1>
+            {/* <p data-aos="fade-down">Selecione entre o ambiente entre UX/UI ou desenvolvimento</p> */}
           </div>
           <br />
-          <div className={styles.portifolioBoxOptions} style={{ zIndex: 1 }}>
+          {/* <div className={styles.portifolioBoxOptions} style={{ zIndex: 1 }}>
             <h2 data-aos="fade-down" className={styles.optionPortifolioSelect} id="boxOptionsPortifolioDEV" onClick={e => { setPortifolioOption("boxOptionsPortifolioDEV", 'DEV') }}>DESENVOLVIMENTO</h2>
             <h2 data-aos="fade-down" className={styles.optionPortifolioSelect} id="boxOptionsPortifolioUX" onClick={e => { setPortifolioOption("boxOptionsPortifolioUX", 'UX') }}>UI/UX</h2>
             <h2 data-aos="fade-down" className={styles.optionPortifolioSelect} id="boxOptionsPortifolioTODOS" onClick={e => { setPortifolioOption("boxOptionsPortifolioTODOS", 'TODOS') }}>TODOS</h2>
           </div>
-          <br /> <br /> <br />
+          <br /> <br /> <br /> */}
           <div className={styles.boxImagesPortifolio} data-aos="fade-right">
             {portfolio}
 

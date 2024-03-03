@@ -139,6 +139,66 @@
             "type": "dev"
         },
         {
+            "name": "API de Ecomerce C#",
+            "icon": "/dev/api_Ecomerce_c.png",
+            "contentIcons": [
+                "/dev/api_Ecomerce_c.png"
+            ],
+            "content": [
+                "XM6mtFBvw6o"
+            ],
+            "description": "Esse foi um projeto feito com C# e .NET Core, utilizei o docker para virtualização, o PostgresSQL como banco de dados e fiz uma integração com o RabbitMQ",
+            "links": [
+                "https://github.com/GabrielVictor159/mandala_shop"
+            ],
+            "linksType": [
+                "github"
+            ],
+            "type": "dev"
+        },
+        {
+            "name": "Site de ecomerce tabacaria",
+            "icon": "/dev/mandala shop.png",
+            "contentIcons": [
+                "/dev/mandala shop.png"
+            ],
+            "content": [
+                "We5dS1YkjyM"
+            ],
+            "description": "Esse foi um projeto feito com Java Spring Boot e React para uma tabacaria, não fiz o UX das paginas mas fiz o Front-End e o Back-End, utilizei o postgresSQL como banco de dados e docker no Back-End",
+            "links": [
+                "https://github.com/GabrielVictor159/Delivery-BackEnd",
+                "https://github.com/GabrielVictor159/mandala_shop"
+            ],
+            "linksType": [
+                "github",
+                "github"
+            ],
+            "type": "dev"
+        },
+        {
+            "name": "Bot Do Telegram com IA",
+            "icon": "/dev/mandabot.png",
+            "contentIcons": [
+                "/dev/mandabot.png"
+            ],
+            "content": [
+                "AwTxoomIJ_A"
+            ],
+            "description": "Esse foi um projeto feito com C#, .NET Core e .NET MVC, utilizei o docker para virtualização, o PostgresSQL como banco de dados, o Nginx como proxy Reverso, esse sistema esta em produção e o seu intuito era ser uma prova de conceito para um projeto de faculdade, o intuito do chat era interagir com o usuario e demonstrar os produtos disponiveis mais adequados com base na interação com o usuario, o bot pode ser encontrado no telegram pelo @MandalaHookahBot",
+            "links": [
+                "https://github.com/GabrielVictor159/Telegram_Bot",
+                "https://web.telegram.org/k/#@MandalaHookahBot",
+                "http://gabrielvpb.com.br/mandabot/"
+            ],
+            "linksType": [
+                "github",
+                "site",
+                "site"
+            ],
+            "type": "dev"
+        },
+        {
             "name": "Calculadora teorema de pitagoras",
             "icon": "/dev/teorema_pitagoras_icon.jpg",
             "content": [

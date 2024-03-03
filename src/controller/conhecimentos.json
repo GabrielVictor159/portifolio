@@ -63,6 +63,16 @@
     ],
     "dev": [
         {
+            "name": ".NET Core",
+            "img": "/images/NET_Core_Logo.png",
+            "descripton": "Aprendi sobre o .NET Core no meu trabalho na GWCloud onde desenvolvi soluções usando as distribuições 3.1, 6.0, 7.0 e 8.0"
+        },
+        {
+            "name": "C#",
+            "img": "/images/icons8-c-sharp-logo-240.png",
+            "descripton": "Começei a estudar o C# na faculdade por causa de sua sintaxe semelhante ao Java, porém apronfundei mais meus conhecimentos no meu trabalho como desenvolvedor .NET na GWCloud onde mme aprofundei nas diferentes distribuições do .NET e do C#"
+        },
+        {
             "name": "C",
             "img": "/images/icons8-c-programming-240.png",
             "descripton": "A linguagem C foi a primeira linguagem de programação que tive contato, tive contato no 1º semestre da faculdade, aprendi bastante sobre programação estruturada e funcional, nunca desenvolvi nenhum projeto grande com essa linguagem apenas questões logicas para aprender logica de programação"
@@ -148,9 +158,19 @@
             "descripton": "Tentando melhorar meus conhecimentos sobre React e Node.js eu estudei e aprendi sobre o Next.js esse portifolio foi desenvolvido utilizando Next.js"
         },
         {
+            "name": "PostgresSQL",
+            "img": "/images/icons8-postgresql-240.png",
+            "descripton": "Aprendi e utilizei na pratica o PostgresSQL no meu trabalho na GWCloud"
+        },
+        {
             "name": "MySql",
             "img": "/images/mysql-icon.png",
             "descripton": "Aprendi sobre o MySql e sql na faculdade em cursos e lendo livros, meus conhecimentos sobre banco de dados começa na faculdade no curso de estrutura de dados canônicas, nesse curso aprendi as estruturas de dados seus metodos para organização, reogornização e busca, futuramente aprofundei meus conhecimentos em bancos de dados através do curso Modelagem de dados na faculdade onde estudei sobre as historias dos bancos de dados alem de todos os tipos de estruturas de dados e SGBDs presentes no mercado, aprendi sobre SQL e me foquei no SGBD MySql"
+        },
+        {
+            "name": "SQL",
+            "img": "/images/icons8-sql-60.png",
+            "descripton": "Aprendi SQL no primeiro ano de faculdade, dês de la utilizei em diversos projetos e no trabalho, pode-se dizer que possuo um conhecimento consolidado na linguagem"
         },
         {
             "name": "Git",
@@ -166,6 +186,11 @@
             "name": "jUnit",
             "img": "/images/pngwing.com.png",
             "descripton": "Buscando aprender sobre como melhorar meus codigos aprendi sobre Test-Driven Development (TDD), essa metodologia utiliza um desenvolvimento voltado a testes dessa forma busquei aprender sobre o jUnit que é a ferramenta de testes mais utilizada em Java"
+        },
+        {
+            "name": "RabbitMQ",
+            "img": "/images/rabbitmq.242x256.png",
+            "descripton": "Aprendi e utilizei na pratica o RabbitMQ em diversos projetos na GWCloud"
         }
     ],
     "HardwareRedes": [
@@ -177,12 +202,17 @@
         {
             "name": "Sistemas Operacionais",
             "img": "/images/icons8-operational-system-64.png",
-            "descripton": "Possuo conhecimentos em sistemas operacionais desktop, se tratando de windows, possuo diversos conhecimentos relacionados a seu funcionamento, estruturas etc, se tratando de windows minha experiência se foca no Kali Linux, possuindo conhecimentos de terminal basicos e conhecimentos basicos de PenTest."
+            "descripton": "Possuo conhecimentos em sistemas operacionais desktop, se tratando de windows, possuo diversos conhecimentos relacionados a seu funcionamento, estruturas etc, se tratando de linux minha experiência se foca no Kali Linux, possuindo conhecimentos de terminal basicos e conhecimentos basicos de PenTest."
         },
         {
             "name": "Maquinas Virtuais",
             "img": "/images/icons8-virtualbox-100.png",
             "descripton": "Possuo diversos conhecimentos em ferramentas de virtualização como Virtual Box, vmWare e hyper-v, alem de possui conhecimentos sobre docker."
+        },
+        {
+            "name": "Nginx",
+            "img": "/images/icons8-nginx-240.png",
+            "descripton": "Aprendi sobre o Nginx na faculdade e utilizei em diversos projetos como Load balancer e proxy reverso"
         },
         {
             "name": "Redes",
@@ -192,24 +222,29 @@
         {
             "name": "Docker",
             "img": "/images/icons8-docker-96.png",
-            "descripton": "Possuo conhecimentos sobre docker, conceitos de imagens e containers, Docker Desktop, Docker Swarm, Docker Kitematic, Docker Compose, Docker Hub e comandos em geral"
+            "descripton": "Possuo conhecimentos sobre docker, conceitos de imagens e containers, Docker Desktop, Docker Swarm, Docker Kitematic, Docker Compose, Docker Hub e comandos em geral, aprofundei meus conhecimentos no meu trabalho na GWCloud e utilizei na pratica em projetos."
+        },
+        {
+            "name": "Kubernetes",
+            "img": "/images/kubernetes.256x249.png",
+            "descripton": "Aprendi sobre Kubernetes no meu trabalho na GWCloud e utilizei na pratica no desenvolvimento de projetos, utilizei aliado ao HELM, Azure DevOps e HAUWEI CLOUD."
         }
     ],
     "Cloud": [
         {
             "name": "Azure",
             "img": "/images/icons8-azure-96.png",
-            "descripton": "Possuo diversos conhecimentos sobre o azure, conhecimentos sobre suas estruturas como app service, app web static, containers, virtual machines e banco de dados."
-        },
-        {
-            "name": "Heroku",
-            "img": "/images/icons8-heroku-96.png",
-            "descripton": "Possuo conhecimentos sobre hospedagem de sistemas e banco de dados através do heroku."
+            "descripton": "Possuo diversos conhecimentos sobre o azure, como Serviço de aplicativo, Azure Functions, Armazenamento de Blobs, Azure Cosmos DB, ACR, ACI, AKS, Microsoft Identity, Microsoft Graph, Azure Key Vault, Gerenciamento de API, Grade de Eventos, Hub de Eventos, Barramento de Serviço, Armazenamento de fila, Application Insights, Cache do Azure para Redis e CDN"
         },
         {
             "name": "Vercel",
             "img": "/images/VercelIcon.png",
             "descripton": "Possuo conhecimentos sobre o Vercel que é o serviço cloud de deploy de aplicações Next.js"
+        },
+        {
+            "name": "Azure DevOps",
+            "img": "/images/azure-devops.png",
+            "descripton": "Aprendi sobre o Azure DevOps trabalhando na GWCloud, utilizei na pratica todas as funcionalidades do Azure DevOps nos projetos, além de aprender sobre Azure Pipelines e desenvolver na pratica elas"
         },
         {
             "name": "Firebase",
